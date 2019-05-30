@@ -26,6 +26,7 @@ add_polylines(data = May_21_2019, lat = "lat",lon = "lon", stroke_weight = 4) %>
 In case of missing data in the dataset, plot separately the different part of the time series using the index. In the following example, data are missing between the indexes 283 and 284:
 
 add_polylines(data = May_21_2019[1:283,1:26], lat = "lat",lon = "lon", stroke_weight = 4) %>%
+
 add_polylines(data = May_21_2019[284:865,1:26], lat = "lat",lon = "lon", stroke_weight = 4) %>%
 
 Make sure that the last line add_polylines line does not end with %>%. 
