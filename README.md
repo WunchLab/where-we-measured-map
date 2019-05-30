@@ -35,4 +35,5 @@ Save the map as a web page by clicking on export in the viewer window of RStudio
 
 # Display the map on the website
 Transfer your new map from your local system to the remote server in the appropriate directory and run the ‘route_record_creator.sh’ script to add legends to the map:
+
 bash route_record_creator.sh new_map index.html
